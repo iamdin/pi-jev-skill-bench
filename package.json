@@ -1,0 +1,28 @@
+{
+  "name": "pi-jev-skill-bench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Benchmark for Pi skill routing: BM25 vs TypeSafe Jev across roster sizes 50–500",
+  "license": "MIT",
+  "type": "module",
+  "author": "iamdin <iamdinq@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdin/pi-jev-skill-bench.git"
+  },
+  "scripts": {
+    "bench": "bun run.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0",
+    "pi-jev-skill-suggestion": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

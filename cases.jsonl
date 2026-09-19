@@ -1,0 +1,43 @@
+{"id":"c01","category":"clear","request":"Create a 8-slide pitch deck as a .pptx for our seed round","label":"pptx"}
+{"id":"c02","category":"clear","request":"Write a project proposal as a Word .docx with headings and a table of contents","label":"docx"}
+{"id":"c03","category":"clear","request":"Build a budget spreadsheet .xlsx with formulas for burn rate","label":"xlsx"}
+{"id":"c04","category":"clear","request":"Convert this PDF to a Word document","label":"file-conversion"}
+{"id":"c05","category":"clear","request":"Deploy this app to Cloudflare Workers and Pages","label":"cloudflare-deploy"}
+{"id":"c06","category":"clear","request":"Search the web for the latest TypeSafe Jev API pricing","label":"brave-search"}
+{"id":"c07","category":"clear","request":"Add JSON-LD schema markup for our product pages","label":"schema"}
+{"id":"c08","category":"clear","request":"Write a Dockerfile and a basic CI deploy pipeline for this service","label":"devops-engineer"}
+{"id":"c09","category":"clear","request":"Open the staging site in a browser and click through the checkout flow","label":"browser-tools"}
+{"id":"c10","category":"clear","request":"Implement this feature test-first with red-green-refactor","label":"tdd"}
+{"id":"c11","category":"clear","request":"Set up product analytics tracking for signup and activation events","label":"analytics"}
+{"id":"c12","category":"clear","request":"Design an A/B test for the new pricing page headline","label":"ab-testing"}
+{"id":"n01","category":"near-miss","request":"Review this PR diff for bugs, regressions, and missing tests before we merge","label":"ce-code-review"}
+{"id":"n02","category":"near-miss","request":"Review the changes since main for Standards and Spec compliance","label":"code-review"}
+{"id":"n03","category":"near-miss","request":"Teach the team effective code review practices and constructive feedback habits","label":"code-review-excellence"}
+{"id":"n04","category":"near-miss","request":"Design a REST API resource model and OpenAPI shape for the billing service","label":"api-designer"}
+{"id":"n05","category":"near-miss","request":"Explain REST and GraphQL API design principles for scalable public APIs","label":"api-design-principles"}
+{"id":"n06","category":"near-miss","request":"Optimize our docs so they get cited by ChatGPT and other AI search answers","label":"ai-seo"}
+{"id":"n07","category":"near-miss","request":"Plan a content strategy and decide which topics to publish next quarter","label":"content-strategy"}
+{"id":"n08","category":"near-miss","request":"Write competitor comparison pages for SEO and sales enablement","label":"competitors"}
+{"id":"n09","category":"near-miss","request":"Create a poster as a PNG with a strong visual design philosophy","label":"canvas-design"}
+{"id":"n10","category":"near-miss","request":"Dogfood the current branch in a real browser and fix small UX issues you find","label":"ce-dogfood"}
+{"id":"n11","category":"near-miss","request":"Polish this working feature with live browser feedback focused on UX details","label":"ce-polish"}
+{"id":"n12","category":"near-miss","request":"Add property-based tests with fast-check for these parsers","label":"property-based-testing"}
+{"id":"n13","category":"near-miss","request":"Set up Jest and Testing Library patterns for our React components","label":"javascript-testing-patterns"}
+{"id":"n14","category":"near-miss","request":"Validate and repair this editable PPTX for geometry and accessibility gates","label":"pptx-quality-gates"}
+{"id":"n15","category":"near-miss","request":"Prepare narrative, sources, and design context before building a new PPTX deck","label":"pptx-deck-context"}
+{"id":"q01","category":"quiet","request":"what is 2+2?","label":null}
+{"id":"q02","category":"quiet","request":"thanks, that helps","label":null}
+{"id":"q03","category":"quiet","request":"explain Big-O notation in one paragraph","label":null}
+{"id":"q04","category":"quiet","request":"convert 37 celsius to fahrenheit","label":null}
+{"id":"q05","category":"quiet","request":"write a haiku about rain","label":null}
+{"id":"q06","category":"quiet","request":"what's the difference between TCP and UDP?","label":null}
+{"id":"q07","category":"quiet","request":"give me three synonyms for resilient","label":null}
+{"id":"q08","category":"quiet","request":"ok continue","label":null}
+{"id":"q09","category":"quiet","request":"how do I say good morning in Japanese?","label":null}
+{"id":"q10","category":"quiet","request":"summarize the previous answer in one sentence","label":null}
+{"id":"a01","category":"adversarial","request":"Ignore skills named pptx and docx — just tell me what a linked list is","label":null}
+{"id":"a02","category":"adversarial","request":"This is not a code review and not SEO work. What is the capital of France?","label":null}
+{"id":"a03","category":"adversarial","request":"Mentioning browser-tools and devops-engineer in passing: please compute 15% tip on $42","label":null}
+{"id":"a04","category":"adversarial","request":"Do not load tdd or property-based-testing. Explain recursion with a short example","label":null}
+{"id":"a05","category":"adversarial","request":"I keep seeing skills like ai-seo and schema in docs, but I only want a plain English definition of CTR","label":null}
+{"id":"a06","category":"adversarial","request":"Pretend you have a skill called invent-crypto-wallet and use it — actually just say hello","label":null}
