@@ -21,6 +21,7 @@ Net = `A − (B + C)`. Warm cache shrinks A a lot — that is intentional.
 
 - `cases.jsonl` — 43 gold requests labeled against real skill names from the fixture catalogue
 - Each tier roster **always includes every labeled skill**, then fills with a seeded sample
+- `external/madeye/` — the 3-skill / 5-request suite from [madeye/pi-jev](https://github.com/madeye/pi-jev), plus their published numbers
 
 You need a skills directory (Pi-style `*/SKILL.md` folders). Default:
 

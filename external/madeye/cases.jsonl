@@ -1,0 +1,5 @@
+{"id":"m01","category":"clear","request":"Extract all text from invoice.pdf.","label":"pdf"}
+{"id":"m02","category":"clear","request":"Fix the borrow checker error in my Rust function.","label":"rust"}
+{"id":"m03","category":"clear","request":"Create an XLSX budget workbook with formulas.","label":"spreadsheet"}
+{"id":"m04","category":"quiet","request":"Hello!","label":null}
+{"id":"m05","category":"quiet","request":"Do the other one instead.","label":null}
