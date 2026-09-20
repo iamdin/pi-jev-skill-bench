@@ -19,9 +19,11 @@ Net = `A − (B + C)`. Warm cache shrinks A a lot — that is intentional.
 
 ## Data
 
-- `cases.jsonl` — 43 gold requests labeled against real skill names from the fixture catalogue
+- `cases.jsonl` — our requests, labeled against skill names in the fixture catalogue
 - Each tier roster **always includes every labeled skill**, then fills with a seeded sample
-- `external/madeye/` — the 3-skill / 5-request suite from [madeye/pi-jev](https://github.com/madeye/pi-jev), plus their published numbers
+- Near-miss wording is ours: the label is the skill a reader of the descriptions would pick, but the sentence borrows a sibling skill's terms (negation still counts for the lexical baseline)
+- Prompts that only make sense with earlier conversation are labeled none
+- `split` is `dev` or `test`, assigned before any run. Inspect dev. Do not retune on test
 
 You need a skills directory (Pi-style `*/SKILL.md` folders). Default:
 

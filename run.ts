@@ -46,6 +46,7 @@ type Row = {
   tier: number;
   caseId: string;
   category: BenchCase["category"];
+  split: BenchCase["split"];
   label: string | null;
   arm: Arm;
   pred: string | null;
@@ -79,6 +80,7 @@ function rowFrom(
     tier,
     caseId: c.id,
     category: c.category,
+    split: c.split,
     label: c.label,
     arm: pred.arm,
     pred: pred.skill,
@@ -150,6 +152,15 @@ function reportMarkdown(rows: Row[]): string {
       lines.push(`| --- | --- | --- | --- | --- | --- |`);
       for (const [cat, b] of Object.entries(score.byCategory).sort()) {
         lines.push(`| ${cat} | ${b.n} | ${b.exact} | ${b.false_load} | ${b.wrong_skill} | ${b.miss} |`);
+      }
+      lines.push("", "By split:", "", "| split | n | exact | false_load | wrong_skill | miss |");
+      lines.push("| --- | --- | --- | --- | --- | --- |");
+      for (const split of ["dev", "test"] as const) {
+        const sub = slice.filter((r) => r.split === split);
+        if (!sub.length) continue;
+        const n = (o: Row["outcome"]) => sub.filter((r) => r.outcome === o).length;
+        const exact = n("hit") + n("none_hit");
+        lines.push(`| ${split} | ${sub.length} | ${exact} | ${n("false_load")} | ${n("wrong_skill")} | ${n("miss")} |`);
       }
       lines.push("");
     }

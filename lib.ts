@@ -20,6 +20,8 @@ export type BenchCase = {
   request: string;
   /** Expected skill name, or null for quiet / no skill. */
   label: string | null;
+  /** Assigned before any run. Inspect dev; do not retune on test. */
+  split?: "dev" | "test";
 };
 
 export type Arm = "bm25" | "jev-tool" | "jev-auto";
